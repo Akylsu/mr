@@ -2,10 +2,13 @@
 % Please edit documentation in R/hello.R
 \name{get_bitcoin_price}
 \alias{get_bitcoin_price}
-\title{get BTC price. If error, run again}
+\title{get the most recent BTC price from Binance API. If error, run again}
 \usage{
 get_bitcoin_price()
 }
+\arguments{
+\item{retried}{the number if retries previously done before the exponential backoff sleep}
+}
 \description{
-get BTC price. If error, run again
+This is a wrapper around the \code{binancer} package ...
 }

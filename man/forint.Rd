@@ -2,12 +2,10 @@
 % Please edit documentation in R/hello.R
 \name{forint}
 \alias{forint}
-\title{assign Forint sign
-export}
+\title{assign Forint sign}
 \usage{
 forint(x)
 }
 \description{
 assign Forint sign
-export
 }
