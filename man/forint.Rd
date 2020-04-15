@@ -6,6 +6,9 @@
 \usage{
 forint(x)
 }
+\arguments{
+\item{x}{number}
+}
 \description{
 assign Forint sign
 }
