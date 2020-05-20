@@ -4,10 +4,11 @@ Title: demo R package for "Mastering R" class
 Version: 0.1.0
 Author: akylsu <akigitacc@gmail.com>
 Maintainer: akylsu <akigitacc@gmail.com>
-Description: demo R package for "Mastering R" class
-    Use four spaces when indenting paragraphs within the Description.
+URL: https://github.com/Akylsu/mr
+Description: Demo R package for "Mastering R" class.
 License: AGPL
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0
 Imports: binancer, scales
+Suggests: testthat

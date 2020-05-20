@@ -1,6 +1,6 @@
 #' Access Binance API for BTC price in USD
 #' @export
-#' @param retied # the number of retries before sleep
+#' @param retried # the number of retries before sleep
 #' @importFrom binancer binance_coins_prices
 get_bitcoin_price <- function(retried = 0) {
   tryCatch(
