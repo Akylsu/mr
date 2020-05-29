@@ -4,11 +4,22 @@
 \alias{convert_currency}
 \title{Get exchange rates for a pair of currencies for a certain number of days}
 \usage{
-convert_currency(base, symbol, days)
+convert_currency(base, quote, days)
 }
 \arguments{
-\item{base:}{base currency, symbol: equivalent in a given currency, days: number of days}
+\item{base:}{base currency}
+
+\item{quote:}{quote currency}
+
+\item{days:}{number of days to return}
+}
+\value{
+Table that indicates how much of the \code{quote} currency is needed to purchase one unit of the \code{base} currency for a given number of \code{days}
 }
 \description{
 Get exchange rates for a pair of currencies for a certain number of days
+}
+\examples{
+convert_currency("USD", "JPY", 10)
+convert_currency("EUR", "HUF", 15)
 }

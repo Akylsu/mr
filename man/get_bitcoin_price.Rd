@@ -7,7 +7,10 @@
 get_bitcoin_price(retried = 0)
 }
 \arguments{
-\item{retied}{# the number of retries before sleep}
+\item{retried}{# the number of retries before sleep}
+}
+\value{
+Return the latest price of 1 BTC in USD
 }
 \description{
 Access Binance API for BTC price in USD
