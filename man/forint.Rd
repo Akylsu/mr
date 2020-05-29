@@ -4,11 +4,14 @@
 \alias{forint}
 \title{Formatter function for Hungarian Forint}
 \usage{
-forint(x)
+forint(number)
 }
 \arguments{
-\item{x}{number}
+\item{number:}{converts a given number to the forint format}
 }
 \description{
 Formatter function for Hungarian Forint
+}
+\examples{
+forint(42)
 }
