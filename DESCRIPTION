@@ -1,6 +1,6 @@
 Package: mr
 Type: Package
-Title: demo R package for "Mastering R" class
+Title: Demo R package for "Mastering R" class
 Version: 0.1.0
 Author: akylsu <akigitacc@gmail.com>
 Maintainer: akylsu <akigitacc@gmail.com>

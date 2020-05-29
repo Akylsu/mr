@@ -12,11 +12,13 @@ get_bitcoin_price <- function(retried = 0) {
     })
 }
 #' Formatter function for Hungarian Forint
-#' @param x number
+#' @param number: converts a given number to the forint format
+#' @examples
+#' forint(42)
 #' @export
 #' @importFrom scales dollar
-forint <- function(x) {
-  dollar(x, prefix = '', suffix = 'Ft')}
+forint <- function(number) {
+  dollar(number, prefix = '', suffix = 'Ft')}
 
 #' Get exchange rates for a pair of currencies for a certain number of days
 #' @param base: base currency
