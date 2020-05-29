@@ -14,7 +14,8 @@ convert_currency(base, quote, days)
 \item{days:}{number of days to return}
 }
 \value{
-Table that indicates how much of the \code{quote} currency is needed to purchase one unit of the \code{base} currency for a given number of \code{days}
+Table that indicates how much of the \code{quote} currency is needed to purchase one unit of
+the \code{base} currency for a given number of \code{days}
 }
 \description{
 Get exchange rates for a pair of currencies for a certain number of days
